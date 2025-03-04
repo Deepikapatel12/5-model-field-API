@@ -7,6 +7,4 @@ router.register(r'staff', StaffViewSet, )
 router.register(r'parent', ParentsViewSet, )
 router.register(r'emp', EmployeeViewSet, )
 router.register(r'teacher', TeacherViewSet, )
-
-
 urlpatterns = router.urls
